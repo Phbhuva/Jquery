@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(0, 68, 73);
+    color: white;
+    font-size: 24px;
+    padding-top: 8px;
+    padding-left: 12px;
+    position: fixed;
+    right: 10px;
+    top: 90%;
+    cursor: pointer;
+    display: none;
+}
+.box1{
+    
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 68, 73);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 2px rgb(255, 255, 255);
+    padding-left: 20px;
+}
+.icon{
+    
+    margin-right: 20px;
+}
+.av{
+    padding-right: 15px;
+}
+.blog{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    background-color: rgb(0, 76, 80);
+    height: 60px;
+    width: 100px;
+    padding-left: 20px;
+    border-radius: 15px;
+    margin-top: 1px;
+    padding-top: 5px;
+    display: none;
+}
+.blog:hover .submenu{
+    display: block;
+}
+.box1.sticky {
+    text-align: center;
+   font-size: 24px;
+   line-height: 48px;
+   height: 48px;
+   background: #efc47D;
+   padding-left: 20px;
+ }
